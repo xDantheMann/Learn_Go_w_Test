@@ -16,10 +16,11 @@ func TestAdder(t *testing.T) {
 
 // Add takes two integers and returns the sum of them
 func Add(x, y int) int {
-	return 0
+	return x + y
 }
 
 func ExampleAdd() {
 	sum := Add(1, 5)
 	fmt.Println(sum)
+	// Output: 6
 }
